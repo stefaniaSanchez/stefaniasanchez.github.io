@@ -1,0 +1,44 @@
+.jacquarda-bastarda-9-regular {
+  font-family: "Jacquarda Bastarda 9", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
+body {
+  background-color: #e72c26;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: #7d26e7;
+  font-family: "Jacquarda Bastarda 9", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+div {
+  border: solid 2px, color(srgb rgb(154, 77, 77) green rgb(130, 111, 53));
+}
+main {
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: aquamarine;
+  text-decoration: none;
+  background-color: #84840a;
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 1px, solid rgb(255, 192, 209);
+}
+.boton {
+  margin-block: 2rem;
+}
+a:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 5px 10px aqua;
+}
